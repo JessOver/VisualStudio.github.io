@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Proyecto CV 1</title>
+</head>
+<body>
+    <!--Sector Inicio-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+            <div class="info">
+                <h1>Garfield</h1>
+                
+                <h2>PROFESIONAL DE ARGENTINA PROGRAMA</h2>
+            </div>
+            <div class="foto">
+                <img src="img/Garfield Pic.jpg" alt="Garfiel el gato foto">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Sector Sobre Mí-->
+    <section class="sobremi" id="sobremi">
+    <div class="contenido-seccion">
+        <h2 class="titulo-seccion">Sobre Mí</h2>
+        <h3>Información Personal</h3>
+
+        <p>Me dedico a aprender y tratar de aprobar el Curso de Desarrollo Web</p>
+        <p>Siempre con el mejor de los enfoques para poder brindarle lo mejor a mis clientes y a la par expandir mis conocimientos</p>
+
+        <div class="fila">
+            <div class="col">
+                <i class="fa-solid fa-user-secret"></i>
+                <span class="titulo-detalle">Perfil</span>
+                <p>Soy Garfield y busco aprender los conceptos basicos del Front End para poder construir oportunidades</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <span class="titulo-detalle">Ubicación</span>
+                <p>Me podes encontrar en la Ciudad de La Plata</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-heart"></i>
+                <span class="titulo-detalle">Intereses</span>
+                <p>Me gusta todo lo relacionado al mundo del arte y la Lasagna</p>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    
+    <!-- Sector Resumen-->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2006 - 2010</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Educación Universitaria
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Lic. en computación</h4>
+                                <p>Universidad de San Juan</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2010 - 2015</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Cursos y experiencias
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programador FS</h4>
+                                <p>Udemy Cursos</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>3 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Empleos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Carrefour</h4>
+                                <p>Lavadero de Autos</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                             Trabaje
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Software Inc.</h4>
+                                <p>Diseñador Principal</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Sector Contacto-->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Contactate ya mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">221 - 152222222</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </h2>
+                    <span class="info-contacto">Garfield@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i> Página Web
+                    </h2>
+                    <span class="info-contacto">Garfield.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

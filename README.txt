@@ -1,0 +1,1 @@
+Adjunte las imagenes por las dudas de que haya algún problema para visualizar el contenido.
